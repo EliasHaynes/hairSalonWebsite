@@ -1,0 +1,27 @@
+.main-container {
+    border: 1px solid blue;
+    height: auto;
+    display:flex;
+    flex-flow: column nowrap;
+}
+
+header {
+    height:150px;
+    background-color: purple;
+}
+
+main {
+    height:100%;
+    background-color: pink;
+    flex: 1;
+}
+
+main section {
+    /* height: 1800px; */
+
+}
+
+footer {
+    height:180px;
+    background: aqua;
+}

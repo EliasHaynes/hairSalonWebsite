@@ -1,27 +1,82 @@
+body {
+    margin:0px;
+}
+
 .main-container {
-    border: 1px solid blue;
-    height: auto;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 2fr 3fr .5fr;
+    grid-template-columns: 1fr;
+
+}
+
+/* *************** Header box ***************** */
+header h1 {
+    display: flex;
+    justify-content: center;
+}
+  
+header ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+  
+header li {
+    margin: 20px;
+}
+
+  /* *************** First Main Body (second row) **************** */
+main.pt1 {
     display:flex;
-    flex-flow: column nowrap;
+    align-items: center;
+    flex-flow: column wrap;
 }
 
-header {
-    height:150px;
-    background-color: purple;
+div.img {
+    height:200;
+    width:500px;
+    border: 1px solid black;
 }
 
-main {
-    height:100%;
-    background-color: pink;
-    flex: 1;
+  /* *************** Second Main Body (third row) **************** */
+main.pt2 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
-main section {
-    /* height: 1800px; */
-
+main.pt2 div.textbox {
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 600px;
 }
 
+  /* *************** Footer/Socials **************** */
 footer {
-    height:180px;
-    background: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+}
+
+footer p {
+    color:white;
+    margin-left: 5px;
+}
+  
+footer div button {
+    height: 50px;
+    width: 50px;
+}
+  
+footer div.buttons {
+    grid-column: 2;
+    display: flex;
+    justify-content: space-around;
+}
+  
+footer button.social {
+    display: flex;
+    flex-flow: row nowrap;
 }

@@ -25,6 +25,10 @@ header li {
     margin: 20px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* *************** Second row of imgs in main container row 2 **************** */
 
 
@@ -36,7 +40,6 @@ main.row2 h2 {
 main.row2 section.gallery-first-row {
     display: flex;
     justify-content: center;
-
 }
 
 main.row2 div.img {
@@ -48,7 +51,7 @@ main.row2 div.img {
     width: 300px;
 }
 
-main.row2 div.blog-textarea {
+main.row2 div.textcontainer {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -57,7 +60,7 @@ main.row2 div.blog-textarea {
     width: 600px;
 }
 
-main.row2 div.blog-textarea p {
+main.row2 div.textcontainer p {
     text-align: center;
 }
 

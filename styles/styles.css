@@ -26,6 +26,10 @@ header li {
   margin: 20px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 /* *************** First Main Body ***************** */
 main.pt1 {
   display: grid;
@@ -66,7 +70,7 @@ main.pt2 section div.img {
   margin: 0px;
   padding: 0px;
   background-color: orange;
-  border: 1px solid red;
+  border: 1px solid black;
   height: 250px;
   width: 250px;
 }

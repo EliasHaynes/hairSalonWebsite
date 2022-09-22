@@ -25,6 +25,10 @@ header li {
     margin: 20px;
 }
 
+ul {
+    list-style-type: none;
+  }
+
 /* *************** Second row of imgs in main container row 2 **************** */
 
 

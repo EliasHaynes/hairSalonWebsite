@@ -26,6 +26,10 @@ header li {
     margin: 20px;
 }
 
+ul {
+    list-style-type: none;
+}
+
   /* *************** First Main Body (second row) **************** */
 main.pt1 {
     display:flex;

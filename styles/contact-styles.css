@@ -1,0 +1,74 @@
+body {
+    height:100%;
+}
+
+/* *************** Header box ***************** */
+header h1 {
+    display: flex;
+    justify-content: center;
+}
+  
+header ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+  
+header li {
+    margin: 20px;
+}
+
+ul {
+list-style-type: none;
+}
+
+/* *************** Main Body ***************** */
+form {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+form section {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+ section.info {
+    width:400px;
+    height:100px;
+ }
+
+ input.info {
+    width:400px;
+    height:100px;
+    text-align: center;
+ }
+
+
+
+/* *************** Footer ***************** */
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: darkslategray;
+  }
+
+
+  
+  footer div button {
+    height: 50px;
+    width: 50px;
+  }
+  
+  footer div.buttons {
+    grid-column: 2;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  footer button.social {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  

@@ -84,3 +84,8 @@ footer button.social {
     display: flex;
     flex-flow: row nowrap;
 }
+
+@media (max-width: 576px) {
+
+
+}

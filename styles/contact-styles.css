@@ -71,4 +71,11 @@ footer {
     display: flex;
     flex-flow: row nowrap;
   }
+
+  @media (max-width: 576px) {
+
+  .main-container {
+        flex-flow: column wrap;
+  }
+}
   

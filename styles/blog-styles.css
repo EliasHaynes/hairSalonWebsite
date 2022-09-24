@@ -108,3 +108,27 @@ footer button.social {
     display: flex;
     flex-flow: row nowrap;
 }
+
+@media (max-width: 576px) {
+
+
+    section.gallery-first-row {
+        flex-flow: column wrap;
+    }
+
+    section.gallery-second-row {
+        flex-flow: column wrap;
+    }
+
+    section.gallery-third-row {
+        flex-flow: column wrap;
+    }
+
+    div.textcontainer {
+
+        flex-flow: column wrap;
+    }
+
+
+
+}

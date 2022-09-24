@@ -30,8 +30,6 @@ ul {
   }
 
 /* *************** Second row of imgs in main container row 2 **************** */
-
-
 main.row2 h2 {
     display: flex;
     justify-content: center;
@@ -52,6 +50,7 @@ main.row2 div.img {
     height: 250px;
     width: 250px;
 }
+
 /* *************** Third row of imgs in main container row 2 **************** */
 main.row2 section.gallery-second-row {
     display: flex;
@@ -60,7 +59,6 @@ main.row2 section.gallery-second-row {
 
 
 /* *************** Fourth row of imgs in main container row 2 **************** */
-
 main.row2 section.gallery-third-row {
     display: flex;
     justify-content: center;
@@ -89,3 +87,27 @@ footer button.social {
     display: flex;
     flex-flow: row nowrap;
 }
+
+@media (max-width: 576px) {
+    section.gallery-first-row {
+        display:flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    section.gallery-second-row {
+        display:flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    section.gallery-third-row {
+        display:flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+
+
+}
+

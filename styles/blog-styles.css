@@ -42,16 +42,18 @@ main.row2 section.gallery-first-row {
     justify-content: center;
 }
 
-main.row2 div.img {
+main.row2 div.img-textcontainer {
+    display: flex;
+    justify-content: flex-end;
     margin: 0px 0px 40px 10px;
     padding: 0px;
     background-color: orange;
     border: 1px solid black;
     height: 250px;
-    width: 300px;
+    width: 900px;
 }
 
-main.row2 div.textcontainer {
+main.row2 div.text-container {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -61,7 +63,7 @@ main.row2 div.textcontainer {
 }
 
 main.row2 div.textcontainer p {
-    text-align: center;
+
 }
 
 main.row button {
@@ -111,10 +113,10 @@ footer button.social {
 
 @media (max-width: 576px) {
 
-
     section.gallery-first-row {
         flex-flow: column wrap;
     }
+
 
     section.gallery-second-row {
         flex-flow: column wrap;
@@ -124,10 +126,18 @@ footer button.social {
         flex-flow: column wrap;
     }
 
-    div.textcontainer {
-
-        flex-flow: column wrap;
+    main.row2 div.img-textcontainer {
+        align-items: flex-end;
+        width: 250px;
+        height: 600px;
     }
+    main.row2 div.text-container {
+        width:250px;
+        height: 300px;
+    }
+    
+    }
+
 
 
 
